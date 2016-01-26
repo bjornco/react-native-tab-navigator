@@ -48,7 +48,7 @@ export default class Tab extends React.Component {
       });
     }
 
-    let tabStyle = [styles.container, title ? null : styles.untitledContainer];
+    let tabStyle = [styles.container, title ? null : styles.untitledContainer, this.props.style];
     return (
       <TouchableOpacity
         testID={this.props.testID}
