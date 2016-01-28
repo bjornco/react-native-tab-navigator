@@ -188,9 +188,6 @@ let styles = StyleSheet.create({
   defaultSelectedIcon: {
     tintColor: 'rgb(0, 122, 255)',
   },
-  defaultSelectedIcon: {
-    // tintColor: 'rgb(0, 122, 255)',
-  },
   defaultSelectedTab: {
   },
 
